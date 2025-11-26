@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 2) Prepare data:
 - The data folder expects files like `data/<DATASET>_train.csv`, `data/<DATASET>_dev.csv`, `data/<DATASET>_test.csv` for annotated ground truth.
+- The experiment data used: LeWiDi2023 [https://le-wi-di.github.io/LeWiDi2023/]
 - Annotator candidate splitting uses `data/annotators.csv` to produce `data/annotators/<DATASET>_<split>_candidates.csv` via [`DataManager.split_data_by_dataset`](data_manager.py).
 
 3) Setup config and directories (handled by scripts but can be used programmatically):
