@@ -1,6 +1,6 @@
 # MO-WEL (Multi-Objective Weighted Ensemble Learning)
 
-MO-WEL trains and evaluates robust ensemble transformer models using multi-objective optimization to combine accuracy, calibration, and regularization for improved predictions.
+MO-WEL trains and evaluates robust ensemble models using multi-objective optimization to combine accuracy, calibration, and regularization for improved predictions in subjective text classification task with multiple annotators. The current implementation uses transformer as backbone, please note it is model-agnostic. 
 
 Key features:
 - Train multiple transformer ensemble members with [`ModelTrainer`](models/trainer.py).
