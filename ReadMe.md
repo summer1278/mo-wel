@@ -108,3 +108,37 @@ Files mentioned in this README
 - [utils/init.py](utils/init.py)
 - [requirements.txt](requirements.txt)
 - data/ (dataset files and `annotators/` subfolder)
+
+### Cite the work
+
+Cui, X., Huang, Z. and Abeynayake, N.R. (2026) ‘Learning from annotator disagreement via weighted ensemble optimisation for subjective text classification’, Datenbank-Spektrum, (In Press).
+
+Huang, Z., Abeynayake, N.R. and Cui, X., 2025, November. Weak ensemble learning from multiple annotators for subjective text classification. In Proceedings of the The 4th Workshop on Perspectivist Approaches to NLP (pp. 87-99).
+
+
+```
+@inproceedings{huang-etal-2025-weak,
+    title = "Weak Ensemble Learning from Multiple Annotators for Subjective Text Classification",
+    author = "Huang, Ziyi  and
+      Abeynayake, N. R.  and
+      Cui, Xia",
+    booktitle = "Proceedings of the The 4th Workshop on Perspectivist Approaches to NLP",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.nlperspectives-1.8/",
+    doi = "10.18653/v1/2025.nlperspectives-1.8",
+    pages = "87--99",
+    ISBN = "979-8-89176-350-0"
+}
+```
+```
+@article{cui2026learning,
+  title={Learning from annotator disagreement via weighted ensemble optimisation for subjective text classification},
+  author={Cui, Xia and Huang, Ziyi and Abeynayake, Nishanthi Rupika},
+  journal={Datenbank-Spektrum},
+  year={2026},
+  note={In Press}
+}
+```
