@@ -111,7 +111,8 @@ Files mentioned in this README
 
 ### Cite the work
 
-Cui, X., Huang, Z. and Abeynayake, N.R. (2026) ‘Learning from annotator disagreement via weighted ensemble optimisation for subjective text classification’, Datenbank-Spektrum, (In Press).
+Cui, X., Huang, Z. and Abeynayake, N.R. (2026) ‘Learning from Annotator Disagreement Via Weighted Ensemble Optimisation for Subjective Text Classification’, Datenbank-Spektrum [Preprint]. Available at: https://doi.org/10.1007/s13222-026-00529-9.
+
 
 Huang, Z., Abeynayake, N.R. and Cui, X., 2025, November. Weak ensemble learning from multiple annotators for subjective text classification. In Proceedings of the The 4th Workshop on Perspectivist Approaches to NLP (pp. 87-99).
 
@@ -134,11 +135,17 @@ Huang, Z., Abeynayake, N.R. and Cui, X., 2025, November. Weak ensemble learning 
 }
 ```
 ```
-@article{cui2026learning,
-  title={Learning from annotator disagreement via weighted ensemble optimisation for subjective text classification},
-  author={Cui, Xia and Huang, Ziyi and Abeynayake, Nishanthi Rupika},
-  journal={Datenbank-Spektrum},
-  year={2026},
-  note={In Press}
+
+@article{cui_learning_2026,
+	title = {Learning from {Annotator} {Disagreement} {Via} {Weighted} {Ensemble} {Optimisation} for {Subjective} {Text} {Classification}},
+	issn = {1610-1995},
+	url = {https://doi.org/10.1007/s13222-026-00529-9},
+	doi = {10.1007/s13222-026-00529-9},
+	abstract = {Subjective text classification tasks, such as abuse detection and stance analysis, often suffer from high levels of annotator disagreement. Conventional approaches typically collapse these disagreements into a single ground truth, thereby discarding valuable supervision signals. We propose MO-WEL (Multi-Objective Weighted Ensemble Learning), a novel framework that explicitly leverages annotator disagreement by jointly optimising ensemble weights and size under multiple objectives. Candidate predictors are trained on diverse label projections obtained through random sampling or annotator-specific selection, and ensemble weights are optimised with respect to three complementary losses: F1 score, cross-entropy and Manhattan distance, alongside a regularisation term. Experiments on four benchmark datasets (ConvAbuse, HS-Brexit, MD-Agreement and ArMIS) show that MO-WEL consistently outperforms strong baselines in accuracy, calibration, and distributional alignment. A case study further demonstrates that MO-WEL produces predictions that balance majority correctness with minority annotator perspectives, yielding interpretable and reliable outputs. Our findings highlight the importance of modelling annotator diversity and suggest ensemble optimisation as a principled means of incorporating disagreement into subjective NLP tasks.},
+	journal = {Datenbank-Spektrum},
+	author = {Cui, Xia and Huang, Ziyi and Abeynayake, N. R.},
+	month = feb,
+	year = {2026},
 }
+
 ```
